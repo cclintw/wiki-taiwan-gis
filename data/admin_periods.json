@@ -1,0 +1,537 @@
+{
+  "title": "1661-1895年臺灣行政區劃沿革",
+  "generatedFrom": [
+    {
+      "title": "臺灣行政區劃 - 維基百科",
+      "url": "https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83",
+      "usedSections": [
+        "明鄭時期",
+        "清治時期",
+        "臺灣明鄭時期行政區劃",
+        "臺灣清治時期行政區劃"
+      ]
+    }
+  ],
+  "notes": [
+    "分段原則：1661-1895年間只要行政區劃或上級隸屬、名稱、轄區數量發生變動，即另立一段。",
+    "GIS座標以現代地名或歷史轄區治所作近似點位；前端會使用 Nominatim/OpenStreetMap API 依 query 自動嘗試讀取座標，失敗時使用 fallbackLatLng。",
+    "南雅廳在維基條目中標註存在有爭議，仍依1894年變革列入。"
+  ],
+  "periods": [
+    {
+      "id": "mingzheng-1661",
+      "startYear": 1661,
+      "endYear": 1664,
+      "label": "1661-1664 明鄭初設一府二縣三安撫司",
+      "regime": "明鄭時期",
+      "changeSummary": "鄭氏政權設承天府，府下置天興縣、萬年縣，另置澎湖、南路、北路安撫司。",
+      "sourceBasis": "維基頁面明鄭時期與臺灣明鄭時期行政區劃表。",
+      "tree": {
+        "name": "東都明京",
+        "type": "政權首府",
+        "children": [
+          {
+            "name": "承天府",
+            "type": "府",
+            "children": [
+              { "name": "天興縣", "type": "縣" },
+              { "name": "萬年縣", "type": "縣" }
+            ]
+          },
+          {
+            "name": "安撫司",
+            "type": "安撫司系統",
+            "children": [
+              { "name": "澎湖安撫司", "type": "安撫司" },
+              { "name": "南路安撫司", "type": "安撫司" },
+              {
+                "name": "北路安撫司",
+                "type": "安撫司",
+                "children": [
+                  { "name": "半線安撫司", "type": "安撫司" },
+                  { "name": "淡水安撫司", "type": "安撫司" },
+                  { "name": "雞籠安撫司", "type": "安撫司" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "mingzheng-1664",
+      "startYear": 1664,
+      "endYear": 1683,
+      "label": "1664-1683 天興、萬年升州",
+      "regime": "明鄭時期",
+      "changeSummary": "天興縣、萬年縣升格為州；承天府與三安撫司格局大致延續。",
+      "sourceBasis": "維基頁面臺灣明鄭時期行政區劃表註明1664年天興、萬年縣升格為州。",
+      "tree": {
+        "name": "東寧",
+        "type": "政權",
+        "children": [
+          {
+            "name": "承天府",
+            "type": "府",
+            "children": [
+              { "name": "天興州", "type": "州" },
+              { "name": "萬年州", "type": "州" }
+            ]
+          },
+          {
+            "name": "安撫司",
+            "type": "安撫司系統",
+            "children": [
+              { "name": "澎湖安撫司", "type": "安撫司" },
+              { "name": "南路安撫司", "type": "安撫司" },
+              {
+                "name": "北路安撫司",
+                "type": "安撫司",
+                "children": [
+                  { "name": "半線安撫司", "type": "安撫司" },
+                  { "name": "淡水安撫司", "type": "安撫司" },
+                  { "name": "雞籠安撫司", "type": "安撫司" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1684",
+      "startYear": 1684,
+      "endYear": 1723,
+      "label": "1684-1723 清初福建省臺廈道一府三縣",
+      "regime": "清治時期",
+      "changeSummary": "清廷設臺灣府，隸福建省臺廈道；府下置臺灣縣、鳳山縣、諸羅縣。",
+      "sourceBasis": "維基頁面清治時期列1684年初設一府三縣。",
+      "tree": {
+        "name": "福建省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺廈道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "諸羅縣", "type": "縣" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1723",
+      "startYear": 1723,
+      "endYear": 1727,
+      "label": "1723-1727 增設彰化縣，一府四縣",
+      "regime": "清治時期",
+      "changeSummary": "諸羅縣虎尾溪以北析置彰化縣，成為一府四縣。",
+      "sourceBasis": "維基頁面清治時期列1723年增設彰化縣。",
+      "tree": {
+        "name": "福建省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺廈道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "諸羅縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1727",
+      "startYear": 1727,
+      "endYear": 1731,
+      "label": "1727-1731 改臺灣道，增澎湖廳",
+      "regime": "清治時期",
+      "changeSummary": "臺廈道改為臺灣道；澎湖群島自臺灣縣析出置澎湖廳，成一府四縣一廳。",
+      "sourceBasis": "維基頁面清治時期列1727年臺灣道與澎湖廳。",
+      "tree": {
+        "name": "福建省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "諸羅縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1731",
+      "startYear": 1731,
+      "endYear": 1787,
+      "label": "1731-1787 增淡水廳，一府四縣二廳",
+      "regime": "清治時期",
+      "changeSummary": "彰化縣大甲溪以北析置淡水廳，成一府四縣二廳。",
+      "sourceBasis": "維基頁面清治時期列1731年增設淡水廳。",
+      "tree": {
+        "name": "福建省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "諸羅縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" },
+                  { "name": "淡水廳", "type": "廳" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1787",
+      "startYear": 1787,
+      "endYear": 1812,
+      "label": "1787-1812 諸羅縣改名嘉義縣",
+      "regime": "清治時期",
+      "changeSummary": "林爽文事件後，諸羅縣改名嘉義縣；行政區數量未變。",
+      "sourceBasis": "維基頁面清治時期列1787年諸羅縣改為嘉義縣。",
+      "tree": {
+        "name": "福建省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "嘉義縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" },
+                  { "name": "淡水廳", "type": "廳" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1812",
+      "startYear": 1812,
+      "endYear": 1875,
+      "label": "1812-1875 增噶瑪蘭廳，一府四縣三廳",
+      "regime": "清治時期",
+      "changeSummary": "宜蘭平原增設噶瑪蘭廳，成一府四縣三廳。",
+      "sourceBasis": "維基頁面清治時期列1812年增設噶瑪蘭廳。",
+      "tree": {
+        "name": "福建省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "嘉義縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" },
+                  { "name": "淡水廳", "type": "廳" },
+                  { "name": "噶瑪蘭廳", "type": "廳" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1875",
+      "startYear": 1875,
+      "endYear": 1885,
+      "label": "1875-1885 二府八縣五廳",
+      "regime": "清治時期",
+      "changeSummary": "北部析置臺北府，與臺灣府並立；增恆春縣、卑南廳、埔里社廳，淡水廳改淡水縣、噶瑪蘭廳改宜蘭縣。",
+      "sourceBasis": "維基頁面清治時期列1875年二府八縣五廳。",
+      "tree": {
+        "name": "福建省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "嘉義縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "恆春縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" },
+                  { "name": "卑南廳", "type": "廳" },
+                  { "name": "埔里社廳", "type": "廳" }
+                ]
+              },
+              {
+                "name": "臺北府",
+                "type": "府",
+                "children": [
+                  { "name": "淡水縣", "type": "縣" },
+                  { "name": "宜蘭縣", "type": "縣" },
+                  { "name": "新竹縣", "type": "縣" },
+                  { "name": "基隆廳", "type": "廳" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1885",
+      "startYear": 1885,
+      "endYear": 1887,
+      "label": "1885-1887 福建臺灣省初設，暫維持二府八縣五廳",
+      "regime": "清治時期",
+      "changeSummary": "臺灣建省，正式名稱為福建臺灣省；建省初期行政區仍暫維持二府八縣五廳。",
+      "sourceBasis": "維基頁面清治時期列1885年臺灣建省，初期維持二府八縣五廳。",
+      "tree": {
+        "name": "福建臺灣省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "嘉義縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "恆春縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" },
+                  { "name": "卑南廳", "type": "廳" },
+                  { "name": "埔里社廳", "type": "廳" }
+                ]
+              },
+              {
+                "name": "臺北府",
+                "type": "府",
+                "children": [
+                  { "name": "淡水縣", "type": "縣" },
+                  { "name": "宜蘭縣", "type": "縣" },
+                  { "name": "新竹縣", "type": "縣" },
+                  { "name": "基隆廳", "type": "廳" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1887",
+      "startYear": 1887,
+      "endYear": 1894,
+      "label": "1887-1894 三府一直隸州，十一縣三廳",
+      "regime": "清治時期",
+      "changeSummary": "建省改制完成，臺灣形成臺南府、臺灣府、臺北府、臺東直隸州；新設中部臺灣縣，原臺灣縣改安平縣，並增苗栗縣、雲林縣。",
+      "sourceBasis": "維基頁面清治時期列1887年三府一直隸州，三府下十一縣三廳。",
+      "tree": {
+        "name": "福建臺灣省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺南府",
+                "type": "府",
+                "children": [
+                  { "name": "安平縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "嘉義縣", "type": "縣" },
+                  { "name": "恆春縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" }
+                ]
+              },
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "雲林縣", "type": "縣" },
+                  { "name": "苗栗縣", "type": "縣" },
+                  { "name": "埔里社廳", "type": "廳" }
+                ]
+              },
+              {
+                "name": "臺北府",
+                "type": "府",
+                "children": [
+                  { "name": "淡水縣", "type": "縣" },
+                  { "name": "新竹縣", "type": "縣" },
+                  { "name": "宜蘭縣", "type": "縣" },
+                  { "name": "基隆廳", "type": "廳" }
+                ]
+              },
+              { "name": "臺東直隸州", "type": "直隸州" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qing-1894",
+      "startYear": 1894,
+      "endYear": 1895,
+      "label": "1894-1895 增南雅廳，十一縣四廳",
+      "regime": "清治時期",
+      "changeSummary": "臺北府淡水縣部分地區增設南雅廳；省城移至臺北城內，形成三府一直隸州、十一縣四廳。",
+      "sourceBasis": "維基頁面清治時期列1894年增設南雅廳並移省城。",
+      "tree": {
+        "name": "福建臺灣省",
+        "type": "省",
+        "children": [
+          {
+            "name": "臺灣道",
+            "type": "道",
+            "children": [
+              {
+                "name": "臺南府",
+                "type": "府",
+                "children": [
+                  { "name": "安平縣", "type": "縣" },
+                  { "name": "鳳山縣", "type": "縣" },
+                  { "name": "嘉義縣", "type": "縣" },
+                  { "name": "恆春縣", "type": "縣" },
+                  { "name": "澎湖廳", "type": "廳" }
+                ]
+              },
+              {
+                "name": "臺灣府",
+                "type": "府",
+                "children": [
+                  { "name": "臺灣縣", "type": "縣" },
+                  { "name": "彰化縣", "type": "縣" },
+                  { "name": "雲林縣", "type": "縣" },
+                  { "name": "苗栗縣", "type": "縣" },
+                  { "name": "埔里社廳", "type": "廳" }
+                ]
+              },
+              {
+                "name": "臺北府",
+                "type": "府",
+                "children": [
+                  { "name": "淡水縣", "type": "縣" },
+                  { "name": "新竹縣", "type": "縣" },
+                  { "name": "宜蘭縣", "type": "縣" },
+                  { "name": "基隆廳", "type": "廳" },
+                  { "name": "南雅廳", "type": "廳", "uncertain": true }
+                ]
+              },
+              { "name": "臺東直隸州", "type": "直隸州" }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "fallbackCoordinates": {
+    "東都明京": { "lat": 22.997, "lng": 120.202, "query": "台南市安平區, Taiwan" },
+    "東寧": { "lat": 22.997, "lng": 120.202, "query": "台南市安平區, Taiwan" },
+    "承天府": { "lat": 22.997, "lng": 120.202, "query": "台南市中西區, Taiwan" },
+    "天興縣": { "lat": 23.24, "lng": 120.31, "query": "台南市新營區, Taiwan" },
+    "萬年縣": { "lat": 22.63, "lng": 120.35, "query": "高雄市鳳山區, Taiwan" },
+    "天興州": { "lat": 23.24, "lng": 120.31, "query": "台南市新營區, Taiwan" },
+    "萬年州": { "lat": 22.63, "lng": 120.35, "query": "高雄市鳳山區, Taiwan" },
+    "安撫司": { "lat": 23.65, "lng": 120.95, "query": "Taiwan" },
+    "澎湖安撫司": { "lat": 23.571, "lng": 119.579, "query": "澎湖縣, Taiwan" },
+    "南路安撫司": { "lat": 22.55, "lng": 120.55, "query": "屏東縣, Taiwan" },
+    "北路安撫司": { "lat": 24.15, "lng": 120.75, "query": "台中市, Taiwan" },
+    "半線安撫司": { "lat": 24.081, "lng": 120.538, "query": "彰化市, Taiwan" },
+    "淡水安撫司": { "lat": 25.168, "lng": 121.44, "query": "新北市淡水區, Taiwan" },
+    "雞籠安撫司": { "lat": 25.128, "lng": 121.739, "query": "基隆市, Taiwan" },
+    "福建省": { "lat": 23.7, "lng": 120.95, "query": "Taiwan" },
+    "福建臺灣省": { "lat": 24.143, "lng": 120.681, "query": "臺中市中區, Taiwan" },
+    "臺廈道": { "lat": 23.0, "lng": 120.2, "query": "台南市, Taiwan" },
+    "臺灣道": { "lat": 23.0, "lng": 120.2, "query": "台南市, Taiwan" },
+    "臺灣府": { "lat": 22.997, "lng": 120.202, "query": "台南市中西區, Taiwan" },
+    "臺南府": { "lat": 22.997, "lng": 120.202, "query": "台南市中西區, Taiwan" },
+    "臺北府": { "lat": 25.037, "lng": 121.564, "query": "台北市, Taiwan" },
+    "臺東直隸州": { "lat": 22.758, "lng": 121.144, "query": "台東市, Taiwan" },
+    "臺灣縣": { "lat": 22.997, "lng": 120.202, "query": "台南市中西區, Taiwan" },
+    "安平縣": { "lat": 23.0, "lng": 120.16, "query": "台南市安平區, Taiwan" },
+    "鳳山縣": { "lat": 22.627, "lng": 120.357, "query": "高雄市鳳山區, Taiwan" },
+    "諸羅縣": { "lat": 23.48, "lng": 120.449, "query": "嘉義市, Taiwan" },
+    "嘉義縣": { "lat": 23.48, "lng": 120.449, "query": "嘉義市, Taiwan" },
+    "彰化縣": { "lat": 24.081, "lng": 120.538, "query": "彰化市, Taiwan" },
+    "澎湖廳": { "lat": 23.571, "lng": 119.579, "query": "澎湖縣, Taiwan" },
+    "淡水廳": { "lat": 25.168, "lng": 121.44, "query": "新北市淡水區, Taiwan" },
+    "噶瑪蘭廳": { "lat": 24.759, "lng": 121.754, "query": "宜蘭市, Taiwan" },
+    "恆春縣": { "lat": 22.004, "lng": 120.744, "query": "屏東縣恆春鎮, Taiwan" },
+    "卑南廳": { "lat": 22.758, "lng": 121.144, "query": "台東市, Taiwan" },
+    "埔里社廳": { "lat": 23.966, "lng": 120.969, "query": "南投縣埔里鎮, Taiwan" },
+    "淡水縣": { "lat": 25.168, "lng": 121.44, "query": "新北市淡水區, Taiwan" },
+    "宜蘭縣": { "lat": 24.759, "lng": 121.754, "query": "宜蘭市, Taiwan" },
+    "新竹縣": { "lat": 24.806, "lng": 120.968, "query": "新竹市, Taiwan" },
+    "基隆廳": { "lat": 25.128, "lng": 121.739, "query": "基隆市, Taiwan" },
+    "苗栗縣": { "lat": 24.56, "lng": 120.822, "query": "苗栗市, Taiwan" },
+    "雲林縣": { "lat": 23.707, "lng": 120.543, "query": "雲林縣斗六市, Taiwan" },
+    "南雅廳": { "lat": 24.951, "lng": 121.349, "query": "新北市鶯歌區, Taiwan" }
+  }
+}

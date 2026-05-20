@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1661-1895年臺灣行政區劃沿革</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Taiwan Historical Administrative GIS</p>
+        <h1>1661-1895年臺灣行政區劃沿革</h1>
+      </div>
+      <a class="source-link" href="https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E8%A1%8C%E6%94%BF%E5%8D%80%E5%8A%83" target="_blank" rel="noreferrer">資料來源</a>
+    </header>
+
+    <main>
+      <section class="timeline-panel">
+        <div class="timeline-header">
+          <div>
+            <h2>沿革分段</h2>
+            <p>依行政層級、名稱或轄區數量變更切分。</p>
+          </div>
+          <button id="refreshGeo" type="button" title="使用 Nominatim 重新讀取座標">重新讀取 GIS</button>
+        </div>
+        <div id="periodTabs" class="period-tabs" role="tablist" aria-label="行政區劃時期"></div>
+      </section>
+
+      <section class="summary-band">
+        <div>
+          <p id="regime" class="eyebrow"></p>
+          <h2 id="periodTitle"></h2>
+          <p id="periodSummary"></p>
+        </div>
+        <div class="meta-grid">
+          <div>
+            <span>起年</span>
+            <strong id="startYear"></strong>
+          </div>
+          <div>
+            <span>迄年</span>
+            <strong id="endYear"></strong>
+          </div>
+          <div>
+            <span>節點</span>
+            <strong id="nodeCount"></strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="viz-grid">
+        <article class="viz-panel">
+          <div class="panel-title">
+            <h2>行政層級樹狀圖</h2>
+            <p>D3.js</p>
+          </div>
+          <div id="tree" class="tree-canvas"></div>
+        </article>
+
+        <article class="viz-panel map-panel">
+          <div class="panel-title">
+            <h2>GIS Map</h2>
+            <p>Leaflet + OpenStreetMap</p>
+          </div>
+          <div id="map"></div>
+          <div id="geoStatus" class="geo-status"></div>
+        </article>
+      </section>
+
+      <section class="details-panel">
+        <h2>本階段行政區清單</h2>
+        <div id="nodeList" class="node-list"></div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
