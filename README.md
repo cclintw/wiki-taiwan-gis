@@ -7,6 +7,11 @@
 - Leaflet + OpenStreetMap GIS 地圖
 - Nominatim/OpenStreetMap API 座標查詢與瀏覽器快取
 
+Demo Pages：
+
+- https://wiki-taiwan-gis.cclin.cc/
+- https://cclintw.github.io/wiki-taiwan-gis/
+
 資料主檔：
 
 - `data/admin_periods.json`
