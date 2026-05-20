@@ -10,7 +10,7 @@
 
 ## Demo
 
-- https://cclintw.github.io/wiki-taiwan-gis/
+- https://projects.cclin.cc/wiki-taiwan-gis/
 
 ## 專案內容
 
