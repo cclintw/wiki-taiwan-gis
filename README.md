@@ -9,7 +9,6 @@
 
 Demo Pages：
 
-- https://wiki-taiwan-gis.cclin.cc/
 - https://cclintw.github.io/wiki-taiwan-gis/
 
 資料主檔：
