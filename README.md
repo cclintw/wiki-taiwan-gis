@@ -84,7 +84,7 @@ http://localhost:8000/
 7. 使用本機伺服器預覽。
 8. 推送到 GitHub，並使用 GitHub Pages 發布。
 
-詳細的 Step by Step Codex 操作流程，請參考：
+相關文章介紹，請參考：
 
 - [https://cclin.cc](https://cclin.cc/?p=5322)
 
