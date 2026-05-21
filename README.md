@@ -86,8 +86,9 @@ http://localhost:8000/
 
 相關文章介紹，請參考：
 
-- [https://cclin.cc](https://cclin.cc/?p=5322)
-
+- [我只給 Codex 一篇維基百科文章，它居然自己讀出台灣行政區劃歷史樹](https://cclin.cc/?p=5322)
+- [AI Agent 實作紀錄：只用一段提示詞，Codex 自動建立台灣行政區劃 GIS 網站](https://cclin.cc/?p=5326)
+  
 ## 資料來源
 
 - 維基百科：臺灣行政區劃  
