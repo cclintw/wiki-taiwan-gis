@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Wiki Taiwan GIS: A Codex Agent Demo for Visualizing Historical Administrative Divisions"
+authors:
+  - family-names: Lin
+    given-names: Chance
+year: 2026
+repository-code: "https://github.com/cclintw/wiki-taiwan-gis"
+url: "https://cclintw.github.io/wiki-taiwan-gis/"
+abstract: "A Codex agent demonstration project that uses a single prompt to organize Taiwan's historical administrative division changes from 1661 to 1895 from Wikipedia, generate structured JSON data, and build a static visualization website with D3.js tree diagrams and Leaflet/OpenStreetMap GIS maps."
+keywords:
+  - Codex agent
+  - digital humanities
+  - Taiwan history
+  - administrative divisions
+  - data visualization
+  - GIS
+  - D3.js
+  - Leaflet
+  - OpenStreetMap
+license: "MIT"
