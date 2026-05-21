@@ -86,7 +86,7 @@ http://localhost:8000/
 
 詳細的 Step by Step Codex 操作流程，請參考：
 
-- https://cclin.cc
+- [https://cclin.cc](https://cclin.cc/?p=5322)
 
 ## 資料來源
 
